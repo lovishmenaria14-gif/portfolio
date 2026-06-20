@@ -1,6 +1,6 @@
 import CustomCursor from "./components/CustomCursor";
 import IntroAnimation from "./components/IntroAnimation";
-import Navbar from "./components/navbar";
+import Navbar from "./components/Navbar";
 import ParticlesBackground from "./components/ParticlesBackground";
 import About from "./sections/About";
 import Contact from "./sections/Contact";
