@@ -86,20 +86,6 @@ Start development server:
 npm run dev
 ```
 
----
-
-## 🔑 Environment Variables
-
-Create a `.env` file in the root directory:
-
-```env
-VITE_SERVICE_ID=service_vx6ybah
-VITE_TEMPLATE_ID=template_ep7au3f
-VITE_PUBLIC_KEY=8UaMlL3LomaS2WBqF
-```
-
----
-
 ## 📦 Build for Production
 
 ```bash
