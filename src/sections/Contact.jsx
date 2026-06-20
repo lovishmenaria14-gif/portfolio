@@ -2,7 +2,7 @@ import { useState } from "react";
 import ParticlesBackground from "../components/ParticlesBackground"
 import emailjs from "@emailjs/browser"
 import { motion } from "framer-motion";
-import Astra from "../assets/astra.png"
+import Astra from "../assets/Astra.png"
 
 
 
