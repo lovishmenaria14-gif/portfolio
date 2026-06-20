@@ -1,16 +1,156 @@
-# React + Vite
+# 🚀 Lovish Menaria Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive developer portfolio built with **React**, **Vite**, **Tailwind CSS**, and **Framer Motion**. Designed to showcase projects, skills, experience, and provide an easy way for clients and recruiters to get in touch.
 
-Currently, two official plugins are available:
+## 🌐 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+🔗 https://lovish-14-portfolio.vercel.app/
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ✨ Features
 
-## Expanding the ESLint configuration
+- 🎨 Modern UI/UX Design
+- 📱 Fully Responsive Layout
+- ⚡ Fast Performance with Vite
+- 🌙 Dark Theme
+- 🎭 Smooth Animations using Framer Motion
+- 💼 Projects Showcase
+- 👨‍💻 Skills & Experience Section
+- 📬 Contact Form with EmailJS Integration
+- 🎯 Interactive User Experience
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+- React.js
+- Vite
+- Tailwind CSS
+- Framer Motion
+
+### Email Service
+- EmailJS
+
+### Deployment
+- Vercel
+
+---
+
+## 📂 Project Structure
+
+```bash
+src/
+│
+├── assets/
+├── components/
+│   ├── Navbar.jsx
+│   ├── Hero.jsx
+│   ├── About.jsx
+│   ├── Skills.jsx
+│   ├── Projects.jsx
+│   ├── Contact.jsx
+│   └── Footer.jsx
+│
+├── App.jsx
+├── main.jsx
+└── index.css
+```
+
+---
+
+## ⚙️ Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/lovishmenaria14-gif/portfolio.git
+```
+
+Navigate into the project:
+
+```bash
+cd portfolio
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start development server:
+
+```bash
+npm run dev
+```
+
+---
+
+## 🔑 Environment Variables
+
+Create a `.env` file in the root directory:
+
+```env
+VITE_SERVICE_ID=service_vx6ybah
+VITE_TEMPLATE_ID=template_ep7au3f
+VITE_PUBLIC_KEY=8UaMlL3LomaS2WBqF
+```
+
+---
+
+## 📦 Build for Production
+
+```bash
+npm run build
+```
+
+Preview production build:
+
+```bash
+npm run preview
+```
+
+---
+
+## 🚀 Deployment
+
+This project is deployed using **Vercel**.
+
+```bash
+npm run build
+```
+
+Push your code to GitHub and import the repository into Vercel.
+
+---
+
+
+## 👨‍💻 About Me
+
+I'm **Lovish Menaria**, an aspiring Software Engineer passionate about:
+
+- Competitive Programming
+- Web Development
+- React Development
+- Data Structures & Algorithms
+- Building modern web applications
+
+---
+
+## 📫 Contact
+
+- GitHub: https://github.com/lovishmenaria14-gif
+  
+---
+
+## ⭐ Support
+
+If you like this project, consider giving it a ⭐ on GitHub!
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License.
