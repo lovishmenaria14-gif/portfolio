@@ -13,35 +13,27 @@ import Testimonials from "./sections/Testimonials";
 import React from "react";
 import { useState } from "react";
 
-export default function App(){
- const [introDone, setIntroDone] = useState(false);
-  return(
+export default function App() {
+  const [introDone, setIntroDone] = useState(false);
+
+  return (
     <>
-    {!introDone && <IntroAnimation onFinish={()=> setIntroDone(true)} />}
+      <div className="relative gradient text-white">
+        <CustomCursor />
+        <Navbar />
+        <Home />
+        <About />
+        <Skills />
+        <Project />
+        <Experience />
+        <Testimonials />
+        <Contact />
+        <Footer />
+      </div>
 
-      {introDone && (
-
-
-    <div className="relative gradient text-white">
-      <CustomCursor/>
-
-{/* <ParticlesBackground/> */}
-
-<Navbar/>
-<Home/>
-<About/>
-<Skills/>
-<Project/>
-<Experience/>
-<Testimonials/>
-<Contact/>
-<Footer/>
-
-
-
-
-    </div>
-    )}
+      {!introDone && (
+        <IntroAnimation onFinish={() => setIntroDone(true)} />
+      )}
     </>
-  )
+  );
 }
