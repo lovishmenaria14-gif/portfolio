@@ -31,17 +31,17 @@ export default function OverlayMenu({ isOpen, onClose }) {
           }}
           style={{ backgroundColor: "rgba(0,0,0,0.95)" }}
         >
-          {/* Close Button */}
+         
           <button
             onClick={onClose}
-            className="absolute top-6 right-6 text-white text-3xl"
+            className="absolute top-6 right-6 text-white text-3xl "
             aria-label="Close Menu"
           >
             <FiX />
           </button>
 
-          {/* Navigation */}
-          <ul className="space-y-6 text-center">
+         
+          <ul className="space-y-6 text-center ">
             {menuItems.map((item, index) => (
               <motion.li
                 key={item.id}

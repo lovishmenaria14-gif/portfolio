@@ -136,7 +136,7 @@ className="relative"
     <div className="flex flex-1 items-center justify-center px-6 pb-10">
       {!isMobile && (
         <div className="relative w-full max-w-7xl">
-          <div className="relative h-[60px] bg-white/15 rounded">
+          <div className="relative h-[20px] bg-white/15 rounded">
 <motion.div className="absolute left-0 top-0 h-[6px] bg-white rounded origin-left"
 style={{width:lineSize}}
 >
