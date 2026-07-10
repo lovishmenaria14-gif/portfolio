@@ -210,7 +210,7 @@ export default function Home() {
               </a>
 
               <a
-                href="/Lovish_Menaria_Improved_Resume.docx"
+                href="/Lovish_Menaria_Resume_Final_Updated.pdf"
                 download
                 className="
                   min-w-[180px]
